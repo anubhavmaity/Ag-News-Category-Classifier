@@ -19,6 +19,11 @@ The accuracy for points 1 is 92%.
 The accuracy for point 2 is 93%.
 The accuracy for point 3 (85%) is the lowest as the title of news are mostly cryptic in nature and determining the category from the same is difficult.
 
+The language model's accuracy for the three variants are as follows
+
+1. Title and Description - 43.4%
+2. Only Description - 46.2%
+3. Only Title - 45.5%
 
 Due to space constraints, I am not able to push the models in the repository.
 
