@@ -20,5 +20,5 @@ The accuracy for point 2 is 93%.
 The accuracy for point 3 (85%) is the lowest as the title of news are mostly cryptic in nature and determining the category from the same is difficult.
 
 
-Due to space constraints, I am only keeping the final models in data/models.
+Due to space constraints, I am not able to push the models in the repository.
 
