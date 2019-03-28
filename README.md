@@ -23,3 +23,7 @@ Following are the accuracy of the language model for the 3 variants after traini
 2. Description - 46%
 3. Title - 45%
 
+
+
+Due to space constraints, I am only keeping the final models in data/models.
+
