@@ -7,7 +7,7 @@ I am using the AG News corpus for training a ULMFit (https://arxiv.org/abs/1801.
 
 You can read about the AG News Corpus here http://xzh.me/docs/charconvnet.pdf
 
-We trained models with three below variants of data fields
+I trained models with three below variants of data fields
 1. Title and Description
 2. Only Description
 3. Only Title
