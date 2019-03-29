@@ -7,20 +7,14 @@ I am using the AG News corpus for training a ULMFit (https://arxiv.org/abs/1801.
 
 You can read about the AG News Corpus here http://xzh.me/docs/charconvnet.pdf
 
-We trained models with three below variants of data
+We trained models with three below variants of data fields
 1. Title and Description
 2. Only Description
 3. Only Title
 
 
 
-**Classifier Accuracy:**
- 
-The accuracy for points 1 is 92%. 
-
-The accuracy for point 2 is 93%. The accuracy for point 2 is slightly better than of point 1.
-
-The accuracy for point 3 (85%) is the lowest as the title of news are mostly cryptic in nature and determining the category from the same is difficult.
+**Language Model Accuracy:**
 
 The language model's accuracy for the three variants are as follows
 
@@ -28,6 +22,19 @@ The language model's accuracy for the three variants are as follows
 2. Only Description - 46.2%
 3. Only Title - 45.5%
 
+
+
+**Classifier Accuracy:**
+
+The classifier's accuracy for the three variants are as follows
+
+1. Title and Description - 92%
+2. Only Description - 93%
+3. Only Title - 85%
+
+The accuracy for point 2 is slightly better than of point 1.
+
+The accuracy for point 3 is the lowest as the title of news are mostly cryptic in nature and determining the category from the same is difficult.
 
 
 
@@ -49,4 +56,4 @@ Confusion matrix of the three variants are below:
 
 
 
-Due to space constraints, I am not able to push the models in the repository.
+Due to space constraints, I have not pushed the models in the repository.
